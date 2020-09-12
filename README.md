@@ -10,5 +10,11 @@ Just run
 ```
 Then you will get prompted for a countdown. Enter it then you are set.💫
 
-## SOME REQUIREMENTS
+## SOME REQUIREMENTS🔧
 None. subprocess and sys should already be on your machine.
+
+## FUTURE GOALS 🥅
+[x] Make a barebone version of it
+[ ] Better error handling 
+[ ] Add GUI
+[ ] Get it integrated into Spotify?
