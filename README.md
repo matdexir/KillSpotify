@@ -14,7 +14,7 @@ Then you will get prompted for a countdown. Enter it then you are set.💫
 None. subprocess and sys should already be on your machine.
 
 ## FUTURE GOALS 🥅
-[x] Make a barebone version of it.
-[ ] Better error handling.
-[ ] Add GUI.
-[ ] Get it integrated into Spotify?.
+- [x] Make a barebone version of it.
+- [ ] Better error handling.
+- [ ] Add GUI.
+- [ ] Get it integrated into Spotify?.
