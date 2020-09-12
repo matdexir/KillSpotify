@@ -1,2 +1,2 @@
-#Kill Spotify
+# Kill Spotify
 Nothing yet
