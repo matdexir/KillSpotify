@@ -26,8 +26,7 @@ with open(inFile) as i:
     if len(lines) < 3:
         print("Spotify is not currently running.")
     else:
-        subprocess.call('echo "Killing Spotify..."', shell=True)
-        subprocess.call('sleep %s'%seconds, shell=True)
+        time_process.countdown(int(seconds))
         try:
             subprocess.call('kill %s' %spotify_id, shell=True)
         except:

@@ -17,3 +17,12 @@ def to_seconds(countdown):
             print("The format entered is not correct.")
     return str(seconds)
 
+def countdown(seconds):
+    import time
+    while seconds:
+        mins, secs = divmod(seconds,60)
+        timer = '{:02d}:{:02d}'.format(mins, secs)
+        print("Killing Spotify in " + timer, end='\r')
+        time.sleep(1)
+        seconds -= 1
+
