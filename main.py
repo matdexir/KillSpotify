@@ -1,5 +1,6 @@
 import subprocess
 import sys
+import function_file
 
 subprocess.call('ps aux | grep spotify >> output.txt', shell=True)
 inFile = "output.txt"
@@ -7,8 +8,6 @@ def get_time():
     wait_time = input("In how long do you want to kill Spotify(format ?h ?m ?s):")
     wait_time = wait_time.rstrip()
     return wait_time
-
-import function_file
 
 redlight = True
 seconds = '0'
