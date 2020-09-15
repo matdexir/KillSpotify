@@ -20,4 +20,4 @@ None. subprocess and sys should already be on your machine.
 - [ ] Get it integrated into Spotify?.
 
 ## NEW FEATURES📌
-- Timer(mins and secs for now😭)
+- Timer ⏰
