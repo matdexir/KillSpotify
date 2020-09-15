@@ -27,3 +27,9 @@ def countdown(seconds):
         time.sleep(1)
         seconds -= 1
 
+def del_output():
+    import subprocess
+    try:
+        subprocess.call('rm output.txt',shell=True)
+    except:
+        pass
