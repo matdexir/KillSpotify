@@ -12,6 +12,8 @@ Then you will get prompted for a countdown. Enter it then you are set.💫
 
 ## SOME REQUIREMENTS🔧
 None. subprocess and sys should already be on your machine.
+## RECOMMENDATION👀
+Use it with a tiling window manager. Ex: Tilix, i3, etc...
 
 ## FUTURE GOALS 🥅
 - [x] Make a barebone version of it.
