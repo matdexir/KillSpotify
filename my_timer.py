@@ -1,4 +1,4 @@
-def to_seconds(countdown):
+def to_seconds(countdown: str) -> str:
     countdown = countdown.split()
     seconds = 0
     for clock in countdown:
@@ -17,7 +17,7 @@ def to_seconds(countdown):
             print("The format entered is not correct.")
     return str(seconds)
 
-def countdown(seconds):
+def countdown(seconds: int):
     import time
     while seconds:
         mins, secs = divmod(seconds, 60)
