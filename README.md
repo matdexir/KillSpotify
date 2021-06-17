@@ -23,3 +23,6 @@ Use it with a tiling window manager. Ex: Tilix, i3, etc...
 
 ## NEW FEATURES📌
 - Timer ⏰
+
+# UPDATE
+I don't use spotify no more :'(, so to the archive you go.
